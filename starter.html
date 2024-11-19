@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+</head>
+<body class="bg-zinc-200">
+    <header class="bg-zinc-900 text-white">
+        <nav class="flex justify-between items-center p-4">
+            <a href="#" class="py-1 px-3 rounded-md hover:bg-zinc-700">Moments</a>
+            <div>
+                <a href="#" class="material-icons rounded-md hover:bg-zinc-700 p-1">add</a>
+                <a href="#" class="material-icons rounded-md hover:bg-zinc-700 p-1 ml-2">menu</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="p-4">
+
+        <!-- Card -->
+         <div class="rounded-lg shadow-lg mb-6 bg-white overflow-hidden">
+
+            <!-- Main img -->
+            <img src="https://picsum.photos/600" alt="main img" class="w-full object-cover">
+
+            <!-- Card footer -->
+            <div class="p-4 flex justify-between items-center">
+                <!-- Profile -->
+                 <div class="flex items-center gap-2">
+                    <img src="https://picsum.photos/600" alt="profile-image" class="w-10 h-10 rounded-full">
+                    <div class="text-sm">
+                        <p class="font-medium">Jon Doe</p>
+                        <p class="text-zinc-600 text-xs">25 Jan, 2024</p>
+                    </div>
+                    
+                 </div>
+                <!-- Actions -->
+                 <div class="flex items-center gap-4">
+                    <button class="material-icons text-3xl">favorite_outline</button>
+                    <button class="material-icons text-3xl">chat_bubble_outline</button>
+                    <button class="material-icons text-3xl">bookmark_border</button>
+                 </div>
+            </div>
+
+         </div>
+    </main>
+
+    <footer class="bg-white flex justify-between items-end p-4 text-sm">
+        <div>
+            <h1 class="font-bold">Moments App</h1>
+            <p>Share your moments with the world</p>
+        </div>
+
+        <p class="text-zinc-600 text-[10px]">&copy; 2024, All rights reserved</p>
+    </footer>
+</body>
+</html>
